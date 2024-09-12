@@ -11,6 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+print("Loading WSGI application...")
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'recipe_project.settings')
 
 application = get_wsgi_application()
