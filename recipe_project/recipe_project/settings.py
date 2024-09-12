@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-ml49cp(e)=yakpe
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = [https://cf-python-base.onrender.com]
+ALLOWED_HOSTS = ['cf-python-base.onrender.com']
 
 
 # Application definition
